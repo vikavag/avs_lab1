@@ -3,9 +3,7 @@
 # Запускать после part2.sh: bash part3.sh
 
 set -e
-echo "Запускай из папки репозитория. Сейчас:"
-pwd
-cd lab0
+cd "$HOME/lab0"
 
 echo "===== Задание 4.1 ====="
 ls -lR | grep "^-" | sort -k5,5nr | head -n 5

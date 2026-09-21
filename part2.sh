@@ -3,9 +3,7 @@
 # Запускать после part1.sh: bash part2.sh
 
 set -e
-echo "Запускай из папки репозитория. Сейчас:"
-pwd
-cd lab0
+cd "$HOME/lab0"
 
 cp claude_monet/locker_room/max_note claude_monet/office/max_report
 cp -r claude_monet/bar claude_monet/hall/bar_backup
