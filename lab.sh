@@ -12,67 +12,67 @@ mkdir -p claude_monet/bar
 mkdir -p claude_monet/office
 mkdir -p claude_monet/locker_room
 
-cat > claude_monet/kitchen/hot_station/senya_task << 'EOF'
+cat > claude_monet/kitchen/hot_station/senya_task << EOF
 Сеня готовит мясо для банкета
 Проверяет температуру горячего цеха
 После смены считает оставшиеся продукты
 EOF
 
-cat > claude_monet/kitchen/hot_station/fedya_task << 'EOF'
+cat > claude_monet/kitchen/hot_station/fedya_task << EOF
 Федя разделывает рыбу для гостей
 Готовит фирменную закуску вместе с Сеней
 Перед подачей зовёт Баринова
 EOF
 
-cat > claude_monet/kitchen/pastry_station/lui_dessert << 'EOF'
+cat > claude_monet/kitchen/pastry_station/lui_dessert << EOF
 Луи выпекает коржи для мильфея
 Готовит крем по старому рецепту
 Оставляет один десерт для команды
 EOF
 
-cat > claude_monet/kitchen/pastry_station/katya_idea << 'EOF'
+cat > claude_monet/kitchen/pastry_station/katya_idea << EOF
 Катя предлагает новый шоколадный десерт
 Баринов просит уменьшить количество сахара
 Пробную порцию получает Макс
 EOF
 
-cat > claude_monet/kitchen/barinov_order << 'EOF'
+cat > claude_monet/kitchen/barinov_order << EOF
 Баринов собирает всю команду перед сменой
 Каждый повар отвечает за своё рабочее место
 Лёва контролирует выдачу блюд
 EOF
 
-cat > claude_monet/hall/waiter_plan << 'EOF'
+cat > claude_monet/hall/waiter_plan << EOF
 Настя обслуживает столики у окна
 Официанты встречают гостей в главном зале
 Особые просьбы гостей передают Вике
 EOF
 
-cat > claude_monet/bar/kostya_report << 'EOF'
+cat > claude_monet/bar/kostya_report << EOF
 Костя проверил запас напитков
 Для вечера подготовлены новые коктейли
 Бар откроется одновременно с залом
 EOF
 
-cat > claude_monet/bar/nastya_note << 'EOF'
+cat > claude_monet/bar/nastya_note << EOF
 Настя просит Костю не опаздывать
 После смены они ужинают вместе
 Для гостей оставлены чистые бокалы
 EOF
 
-cat > claude_monet/office/vika_summary << 'EOF'
+cat > claude_monet/office/vika_summary << EOF
 Вика проверила кухню и главный зал
 Команда готова к вечерней смене
 Отчёт нужно передать Нагиеву
 EOF
 
-cat > claude_monet/locker_room/max_note << 'EOF'
+cat > claude_monet/locker_room/max_note << EOF
 Макс придумал новое блюдо для меню
 Баринов разрешил приготовить пробную порцию
 Вика ждёт Макса после смены
 EOF
 
-cat > claude_monet/locker_room/leva_note << 'EOF'
+cat > claude_monet/locker_room/leva_note << EOF
 Лёва проверяет форму новых поваров
 Ключ от кладовой лежит у шефа
 Последним кухню закрывает су-шеф
