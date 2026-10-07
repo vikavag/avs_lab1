@@ -1,3 +1,4 @@
+#!/bin/bash
 cd "$HOME"
 mkdir -p lab0
 cd lab0
