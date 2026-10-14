@@ -2,8 +2,6 @@
 cd "$HOME"
 mkdir -p lab0
 cd lab0
-rm -r claude_monet 2>/dev/null
-rm final_menu 2>/dev/null
 
 mkdir -p claude_monet/kitchen/hot_station
 mkdir -p claude_monet/kitchen/pastry_station
@@ -12,71 +10,49 @@ mkdir -p claude_monet/bar
 mkdir -p claude_monet/office
 mkdir -p claude_monet/locker_room
 
-cat > claude_monet/kitchen/hot_station/senya_task << EOF
-Сеня готовит мясо для банкета
+echo 'Сеня готовит мясо для банкета
 Проверяет температуру горячего цеха
-После смены считает оставшиеся продукты
-EOF
+После смены считает оставшиеся продукты' > claude_monet/kitchen/hot_station/senya_task
 
-cat > claude_monet/kitchen/hot_station/fedya_task << EOF
-Федя разделывает рыбу для гостей
+echo 'Федя разделывает рыбу для гостей
 Готовит фирменную закуску вместе с Сеней
-Перед подачей зовёт Баринова
-EOF
+Перед подачей зовёт Баринова' > claude_monet/kitchen/hot_station/fedya_task
 
-cat > claude_monet/kitchen/pastry_station/lui_dessert << EOF
-Луи выпекает коржи для мильфея
+echo 'Луи выпекает коржи для мильфея
 Готовит крем по старому рецепту
-Оставляет один десерт для команды
-EOF
+Оставляет один десерт для команды' > claude_monet/kitchen/pastry_station/lui_dessert
 
-cat > claude_monet/kitchen/pastry_station/katya_idea << EOF
-Катя предлагает новый шоколадный десерт
+echo 'Катя предлагает новый шоколадный десерт
 Баринов просит уменьшить количество сахара
-Пробную порцию получает Макс
-EOF
+Пробную порцию получает Макс' > claude_monet/kitchen/pastry_station/katya_idea
 
-cat > claude_monet/kitchen/barinov_order << EOF
-Баринов собирает всю команду перед сменой
+echo 'Баринов собирает всю команду перед сменой
 Каждый повар отвечает за своё рабочее место
-Лёва контролирует выдачу блюд
-EOF
+Лёва контролирует выдачу блюд' > claude_monet/kitchen/barinov_order
 
-cat > claude_monet/hall/waiter_plan << EOF
-Настя обслуживает столики у окна
+echo 'Настя обслуживает столики у окна
 Официанты встречают гостей в главном зале
-Особые просьбы гостей передают Вике
-EOF
+Особые просьбы гостей передают Вике' > claude_monet/hall/waiter_plan
 
-cat > claude_monet/bar/kostya_report << EOF
-Костя проверил запас напитков
+echo 'Костя проверил запас напитков
 Для вечера подготовлены новые коктейли
-Бар откроется одновременно с залом
-EOF
+Бар откроется одновременно с залом' > claude_monet/bar/kostya_report
 
-cat > claude_monet/bar/nastya_note << EOF
-Настя просит Костю не опаздывать
+echo 'Настя просит Костю не опаздывать
 После смены они ужинают вместе
-Для гостей оставлены чистые бокалы
-EOF
+Для гостей оставлены чистые бокалы' > claude_monet/bar/nastya_note
 
-cat > claude_monet/office/vika_summary << EOF
-Вика проверила кухню и главный зал
+echo 'Вика проверила кухню и главный зал
 Команда готова к вечерней смене
-Отчёт нужно передать Нагиеву
-EOF
+Отчёт нужно передать Нагиеву' > claude_monet/office/vika_summary
 
-cat > claude_monet/locker_room/max_note << EOF
-Макс придумал новое блюдо для меню
+echo 'Макс придумал новое блюдо для меню
 Баринов разрешил приготовить пробную порцию
-Вика ждёт Макса после смены
-EOF
+Вика ждёт Макса после смены' > claude_monet/locker_room/max_note
 
-cat > claude_monet/locker_room/leva_note << EOF
-Лёва проверяет форму новых поваров
+echo 'Лёва проверяет форму новых поваров
 Ключ от кладовой лежит у шефа
-Последним кухню закрывает су-шеф
-EOF
+Последним кухню закрывает су-шеф' > claude_monet/locker_room/leva_note
 
 chmod 755 claude_monet
 chmod u=rwx,g=rx,o= claude_monet/kitchen
